@@ -5,7 +5,7 @@ REPO = 'https://github.com/nuhmanpk/WebScrapper/'
 FINISHED_PROGRESS_STR = "▓"
 UN_FINISHED_PROGRESS_STR = "░"
 
-START_TEXT = "Hello , I am a web scrapper bot.\nSend me any link for scrapping.\n\nJoin @BugHunterBots"
+START_TEXT = "Welcome to Photon Web OSINT\n\nThe incredibly fast web crawler and scrapper designed for OSINT\n\nSend any target website link for scrapping."
 
 START_BUTTON = InlineKeyboardMarkup(
     [
@@ -58,10 +58,6 @@ OPTIONS = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton('📊 Metadata', callback_data='cbmetadata')
-        ],
-        [
-            InlineKeyboardButton('📷 Screenshot', callback_data='cbscreenshot'),
-            InlineKeyboardButton('🎬 Screen Record', callback_data='cbscreenrecord')
         ],
         [
             InlineKeyboardButton('🕷️ Crawl Complete Web', callback_data='cbcrawl')
