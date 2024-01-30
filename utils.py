@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
-REPO = 'https://github.com/nuhmanpk/WebScrapper/'
+REPO = 'https://t.me/+Y-DLNmGzVW9hZDI1'
 
 FINISHED_PROGRESS_STR = "▓"
 UN_FINISHED_PROGRESS_STR = "░"
