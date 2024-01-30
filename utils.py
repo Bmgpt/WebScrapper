@@ -5,7 +5,7 @@ REPO = 'https://github.com/nuhmanpk/WebScrapper/'
 FINISHED_PROGRESS_STR = "▓"
 UN_FINISHED_PROGRESS_STR = "░"
 
-START_TEXT = "Welcome to Photon Web OSINT\n\nThe incredibly fast web crawler and scrapper designed for OSINT\n\nSend any target website link for scrapping."
+START_TEXT = "Welcome to Photon Web OSINT\n\nThe incredibly fast web crawler and scrapper designed for OSINT\n\n🔗 Send any target website link for scrapping."
 
 START_BUTTON = InlineKeyboardMarkup(
     [
