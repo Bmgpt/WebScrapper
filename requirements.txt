@@ -33,3 +33,4 @@ urllib3>=1.21.1,<1.27
 webencodings>=0.5.1
 wsproto>=1.2.0
 pyromod>=3.1.6
+snowflake-connector-python<4.0.0  # Ensure compatibility with urllib3
